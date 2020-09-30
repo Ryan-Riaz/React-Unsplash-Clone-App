@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.App {
+	background: #2f3542;
+}
+.header {
+	background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+	color: #fff;
+	padding: 20px 0;
+	font-size: 25px;
+	text-align: center;
+}
+.searchBar,
+.searchBtn {
+	width: 50%;
+	padding: 20px;
+	outline: none;
+	font-size: 20px;
+}
+.searchBtn {
+	background: #747d8c;
+	transition: all 0.5s;
+	color: #f1f2f6;
+}
+.searchBtn:hover {
+	outline: none;
+	background: #57606f;
+}
+.galleries {
+	display: flex;
+	flex-wrap: wrap;
+}
+.galleries img {
+	width: 33.33%;
+	border: 5px solid #fff;
+}
